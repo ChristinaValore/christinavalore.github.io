@@ -7,162 +7,166 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.1">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
     span.s1 {font-kerning: none}
     span.Apple-tab-span {white-space:pre}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;head&gt;&lt;title&gt;Module 5&lt;/title&gt;&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p1">&lt;html&gt;</p>
+<p class="p2"><span class="s1">&lt;head&gt;&lt;title&gt;Module 5&lt;/title&gt;&lt;/head&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h1&gt;Module 5&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h2&gt;Part 1 &lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1">&lt;h1&gt;Module 5&lt;/h1&gt;</span></p>
+<p class="p2"><span class="s1">&lt;h2&gt;Part 1 &lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt;Create a function to reverse any word that you type in. This can be typed into either an input box or an alert box, and then print the result in a box or on the webpage.&lt;/p&gt;');</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">document.write('&lt;p&gt;Create a function to reverse any word that you type in. This can be typed into either an input box or an alert box, and then print the result in a box or on the webpage.&lt;/p&gt;');</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">//Reverse word</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">//Reverse word</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt; Enter a word and watch it reverse!')</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">document.write('&lt;p&gt; Enter a word and watch it reverse!')</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">function reverse(word) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>return word.split('').reverse().join('');</span></p>
-<p class="p1"><span class="s1">};</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">function reverse(word) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>return word.split('').reverse().join('');</span></p>
+<p class="p2"><span class="s1">};</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">function calc(){</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var t = document.getElementById("target");</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.innerHTML = reverse(document.getElementById('word').value);</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;form&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="word" type="text" size="20"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="REVERSE" onClick="calc();"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/form&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">function calc(){</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>var t = document.getElementById("target");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>t.innerHTML = reverse(document.getElementById('word').value);</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;form&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="word" type="text" size="20"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="REVERSE" onClick="calc();"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/form&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;div id="target"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;div id="target"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt;Create a function that takes an input number, and prints a table with the first 20 multiples of the number, in order 5x4&lt;/p&gt;');</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">document.write('&lt;p&gt;Create a function that takes an input number, and prints a table with the first 20 multiples of the number, in order 5x4&lt;/p&gt;');</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">//Multiplication</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">//Multiplication</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt; Enter a number and see the first 20 multiples.')</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">document.write('&lt;p&gt; Enter a number and see the first 20 multiples.')</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">function multiple(num) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var i, j, s, l;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>s = "&lt;table&gt;";</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>for (i = 1; i &lt;= 5; i++) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>s=s+"&lt;tr&gt;"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>for (j = 1; j &lt;= 4; j++) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>s=s+"&lt;td&gt;"+(num*((i-1)*4+j))+"&lt;/td&gt;";</span></p>
-<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            <span class="Apple-tab-span">	</span></span>s=s+"&lt;/tr&gt;"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>return s+"&lt;/table&gt;";</span></p>
-<p class="p1"><span class="s1">};</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">function multiple(num) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>var i, j, s, l;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span>s = "&lt;table&gt;";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span>for (i = 1; i &lt;= 5; i++) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>s=s+"&lt;tr&gt;"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>for (j = 1; j &lt;= 4; j++) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>s=s+"&lt;td&gt;"+(num*((i-1)*4+j))+"&lt;/td&gt;";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            <span class="Apple-tab-span">	</span></span>s=s+"&lt;/tr&gt;"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>return s+"&lt;/table&gt;";</span></p>
+<p class="p2"><span class="s1">};</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">function calc1(){</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var t = document.getElementById("target_table");</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>t.innerHTML = multiple(document.getElementById('num').value);</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;form&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="num" type="number" size="10"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="MULTIPLES" onClick="calc1();"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/form&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">function calc1(){</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>var t = document.getElementById("target_table");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>t.innerHTML = multiple(document.getElementById('num').value);</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;form&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="num" type="number" size="10"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="MULTIPLES" onClick="calc1();"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/form&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;div id="target_table"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;div id="target_table"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;h2&gt;Part 2 &lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;h2&gt;Part 2 &lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt;Write a function to load the presidents.csv data and display the data as an html table.&lt;/p&gt;');</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">document.write('&lt;p&gt;Write a function to load the presidents.csv data and display the data as an html table.&lt;/p&gt;');</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript" src="https://d3js.org/d3.v2.js"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript" src="https://d3js.org/d3.v2.js"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">d3.text("https://raw.githubusercontent.com/charleyferrari/CUNY_DATA_608/master/module5/data/presidents.csv", function (datapr) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var parsedCSV = d3.csv.parseRows(datapr);</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>var out = d3.select("#output")</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.append("table") <span class="Apple-converted-space">       </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.selectAll("tr")</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.data(parsedCSV)</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.enter().append("tr")</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.selectAll("td")</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.data(function (d) { return d; })</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.enter().append("td")</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.text(function (d) { return d; });</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>});</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
-<p class="p1"><span class="s1">&lt;div id="output"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script&gt;</span></p>
+<p class="p2"><span class="s1">d3.text("https://raw.githubusercontent.com/charleyferrari/CUNY_DATA_608/master/module5/data/presidents.csv", function (datapr) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>var parsedCSV = d3.csv.parseRows(datapr);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>var out = d3.select("#output")</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.append("table") <span class="Apple-converted-space">       </span></span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.selectAll("tr")</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.data(parsedCSV)</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.enter().append("tr")</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.selectAll("td")</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.data(function (d) { return d; })</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.enter().append("td")</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>.text(function (d) { return d; });</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>});</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p2"><span class="s1">&lt;div id="output"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
-<p class="p1"><span class="s1">document.write('&lt;p&gt;Write a function to load the presidents.csv data and display the data as an html table.&lt;/p&gt;');</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script type="text/javascript"&gt;</span></p>
+<p class="p2"><span class="s1">document.write('&lt;p&gt;Write a function to load the presidents.csv data and display the data as an html table.&lt;/p&gt;');</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">function search() {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>container = document.getElementById('output');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>var value = container.getElementsByTagName('table')[0].rows;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>var president = document.getElementById('name').value</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>for (i = 0; i &lt; value.length; i++) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>if (value[i].cells[0].innerHTML == president) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>var t = document.getElementById("pinfo");</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>t.innerHTML = "Height: " + value[i].cells[1].innerHTML+"," + " Weight: " + value[i].cells[2].innerHTML;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                       </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;script&gt;</span></p>
+<p class="p2"><span class="s1">function search() {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>container = document.getElementById('output');</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>var value = container.getElementsByTagName('table')[0].rows;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>var president = document.getElementById('name').value</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>for (i = 0; i &lt; value.length; i++) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>if (value[i].cells[0].innerHTML == president) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>var t = document.getElementById("pinfo");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>t.innerHTML = "Height: " + value[i].cells[1].innerHTML+"," + " Weight: " + value[i].cells[2].innerHTML;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p2"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;form&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="name" type="text" size="40"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="SEARCH" onClick="search();"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/form&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;form&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input id="name" type="text" size="40"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="button" value="SEARCH" onClick="search();"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/form&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;div id="pinfo"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div id="output"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><br>
+<p class="p2"><span class="s1">&lt;div id="pinfo"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1">&lt;div id="output"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><br>
 </span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/html&gt;</span></p>
+<p class="p2"><span class="s1"><br>
+</span></p>
 </body>
 </html>
