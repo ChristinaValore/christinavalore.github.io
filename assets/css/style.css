@@ -1158,7 +1158,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 5px;
-  color: #000000;
+  color: #fff;
   z-index: 999999;
 }
 
@@ -1171,7 +1171,7 @@ section .container {
 }
 
 .credits a {
-  color: #000000;
+  color: #fff;
   transition: 0.3s;
 }
 
