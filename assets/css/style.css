@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #A9A9A9;
+  color: ##674d3c;
   line-height: 1;
   display: inline-block;
 }
