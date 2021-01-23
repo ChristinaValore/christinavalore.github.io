@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/hp.jpeg") top right no-repeat;
+  background: #fff2df;
   background-size: cover;
   left: 0;
   right: 0;
