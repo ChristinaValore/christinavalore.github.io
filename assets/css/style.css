@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #0275d8;
-  color: #fff;
+  background-color: #292b2c;
+  color: #f7f7f7;
   position: relative;
   background: transparent;
 }
@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0275d8;
+  background: #292b2c;
   background-size: cover;
   left: 0;
   right: 0;
@@ -35,7 +35,7 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #5cb85c;
 }
 
 a:hover {
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #5cb85c;
   padding-bottom: 6px;
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #5cb85c;
 }
 
 @media (max-width: 992px) {
